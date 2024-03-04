@@ -78,4 +78,4 @@ function calculate() {
 ```
 
 ### Demo
-Once the steps have been completed, you should have a fully functional basic calculator web application. Linked below is a download to mine. 
+Once the steps have been completed, you should have a fully functional basic calculator web application. Below is an image of mine, feel free to edit the css to your liking.
