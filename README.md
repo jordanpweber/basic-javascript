@@ -83,4 +83,4 @@ Once the steps have been completed, you should have a fully functional basic cal
 
 
 Also linked is a link to the folder containing my source code.
-[Link Text](https://github.com/jordanpweber/simple-calculator/tree/main/assignment-3)
+[My Calculator](https://github.com/jordanpweber/simple-calculator/tree/main/assignment-3)
