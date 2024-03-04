@@ -1,70 +1,62 @@
-### Basic Calculator Web App
-A simple web-based calculator built using HTML, CSS and JavaScript.
+# Building a Basic Calculator Web Application
 
-## The Process
-Below are code snippets to help you build your own online calculator.
-## HTML (The Foundation):
+This README provides a step-by-step guide on how to build a simple web-based calculator using HTML, CSS, and JavaScript.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Step-by-Step Guide](#step-by-step-guide)
+  - [1. Set Up the Project Structure](#1-set-up-the-project-structure)
+  - [2. Create the HTML Structure](#2-create-the-html-structure)
+  - [3. Style the Calculator](#3-style-the-calculator)
+  - [4. Add JavaScript Functionality](#4-add-javascript-functionality)
+- [Demo](#demo)
+- [Conclusion](#conclusion)
+
+## Introduction
+
+Building a basic calculator web application is a great way to practice front-end development skills. This project will involve creating the user interface using HTML and CSS, and implementing the calculator's functionality using JavaScript.
+
+## Step-by-Step Guide
+
+### 1. Set Up the Project Structure
+
+Create a new directory for your project and set up the following files:
+- `index.html`: HTML file for the calculator's user interface.
+- `styles.css`: CSS file for styling the calculator.
+- `script.js`: JavaScript file for implementing the calculator's functionality.
+
+### 2. Create the HTML Structure
+
+In the `index.html` file, create the basic structure for the calculator:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <div class="calculator">
-        <input type="text" id="display" readonly>
-        <div class="buttons">
-            <button onclick=""clearDisplay"()">C</button>
-            <button onclick=""appendToDisplay"*('7')">7</button>
-            <button onclick=""appendToDisplay"('8')">8</button>
-            <button onclick=""appendToDisplay"('9')">9</button>
-            <button onclick=""appendToDisplay"('+')">+</button>
-            <button onclick=""appendToDisplay"('4')">4</button>
-            <button onclick=""appendToDisplay"('5')">5</button>
-            <button onclick=""appendToDisplay"('6')">6</button>
-            <button onclick=""appendToDisplay"('-')">-</button>
-            <button onclick=""appendToDisplay"('1')">1</button>
-            <button onclick=""appendToDisplay"('2')">2</button>
-            <button onclick=""appendToDisplay"('3')">3</button>
-            <button onclick=""appendToDisplay"('*')">*</button>
-            <button onclick=""appendToDisplay"('0')">0</button>
-            <button onclick=""appendToDisplay"('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="appendToDisplay('/')">/</button>
-        </div>
+    <!-- Calculator display -->
+    <input type="text" id="display" readonly>
+
+    <!-- Calculator buttons -->
+    <div class="buttons">
+        <!-- Add buttons for numbers and operators -->
     </div>
+
     <script src="script.js"></script>
 </body>
-* "appendToDisplay" meaning to add to an existing element. When a number value is selected it fills the empty space within
-the calculator for you to prcoeed with the next portion of the equation/calculation. 
+</html>
+```
 
-Note: Delete the "" surrounding 'appendToDisplay' within your own application for proper functionality.
+### 3. Style the Calculator
+In the .css file, add styles to make the calculatoe more visually appealing. 
 
-## CSS (The Style):
-.calculator {
-    width: 250px;
-    margin: 100px auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #f9f9f9;
-}
-
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);**
-    grid-gap: 5px;
-}
-
-button {
-    padding: 10px;
-    font-size: 18px;
-    border: none;
-    background-color: #ddd;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #ccc;
-}
-
-** Sets the way in which the buttons will be displayed on the calculator.
-
-## JavaScript (The Functionality):
+### 4. Add JavaScript Functionality
+Within the .js file, implement logic and code that allows the calculator to work, below is an example of what I did.
+```
 'use strict';
 
 function appendToDisplay(value) {
@@ -84,5 +76,7 @@ function calculate() {
         document.getElementById('display').value = 'Error';
     }
 }
+```
 
-Linked is a download to my calculator. 
+### Demo
+Once the steps have been completed, you should have a fully functional basic calculator web application. Linked below is a download to mine. 
