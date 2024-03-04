@@ -79,3 +79,4 @@ function calculate() {
 
 ### Demo
 Once the steps have been completed, you should have a fully functional basic calculator web application. Below is an image of mine, feel free to edit the css to your liking.
+![Alt text](https://github.com/jordanpweber/simple-calculator/blob/main/git-calc-demo.png?raw=true)
