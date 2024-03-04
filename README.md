@@ -10,7 +10,6 @@ This README provides a step-by-step guide on how to build a simple web-based cal
   - [3. Style the Calculator](#3-style-the-calculator)
   - [4. Add JavaScript Functionality](#4-add-javascript-functionality)
 - [Demo](#demo)
-- [Conclusion](#conclusion)
 
 ## Introduction
 
