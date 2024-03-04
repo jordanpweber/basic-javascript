@@ -82,4 +82,5 @@ Once the steps have been completed, you should have a fully functional basic cal
 ![Alt text](https://github.com/jordanpweber/simple-calculator/blob/main/git-calc-demo.png?raw=true)
 
 
-Also linked is a link to the folder containing my source code.(#assignment-3)
+Also linked is a link to the folder containing my source code.
+[Link Text](https://github.com/jordanpweber/simple-calculator/tree/main/assignment-3)
